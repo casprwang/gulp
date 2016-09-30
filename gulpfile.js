@@ -5,12 +5,12 @@ var reload      = browserSync.reload;
 
 gulp.task('server', function() {
   browserSync.init({
-    server: './app'
+    server: './app/html2'
   });
 });
 
 gulp.task('default', ['server'], function () {
-  gulp.watch('./app/**.html').on('change', reload)
+  gulp.watch('./app/html2/index2.html').on('change', reload)
 });
 
 // gulp.task('browser-sync', function() {
