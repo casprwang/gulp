@@ -10,9 +10,13 @@ gulp.task('server', function() {
 });
 
 gulp.task('default', ['server'], function () {
-  gulp.watch('./app/index2.html').on('change', reload)
+  gulp.watch('./app/index.html').on('change', reload)
   gulp.watch('./app/css/*.css').on('change', reload)
 });
+
+gulp.task('default', ['server'])
+
+
 
 // gulp.task('browser-sync', function() {
 //     browserSync.init({
