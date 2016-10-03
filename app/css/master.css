@@ -12,6 +12,9 @@ p:nth-child(even){color: maroon}*/
 /*p:nth-child(3){color:yellow}*/
 
 
-*{color: blue}
+/**{color: blue}
 :not(.red){color:red}
-:not(#green){color:green}
+:not(#green){color:green}*/
+
+
+div>p{color:blue}
