@@ -17,4 +17,6 @@ p:nth-child(even){color: maroon}*/
 :not(#green){color:green}*/
 
 
-div>p{color:blue}
+/*div>p{color:blue}*/
+
+p#green ~ p{color:red}
