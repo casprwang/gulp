@@ -6,5 +6,12 @@ p { font-size: 1em}*/
 
 
 
+/*p:nth-child(odd){color: red}
+p:nth-child(even){color: maroon}*/
 
-body{color: red}
+/*p:nth-child(3){color:yellow}*/
+
+
+*{color: blue}
+:not(.red){color:red}
+:not(#green){color:green}
