@@ -20,7 +20,7 @@ p:nth-child(even){color: maroon}*/
 /*div>p{color:blue}*/
 
 /*p#green ~ p{color:red}*/
-*{
+/**{
   margin: 0px;
   padding: 0px;
 }
@@ -71,7 +71,6 @@ body{
   float: left;
   width: 660px;
   margin: 30px
-  /*720px, 280 left*/
 }
 
 #side_news {
@@ -96,4 +95,37 @@ article {
 
 article footer {
   text-align: right
+}*/
+
+
+/**{
+  margin: 0px;
+  padding: 0px;
 }
+
+h1{
+  font: bold 20px Tahoma;
+}
+
+h2{
+  font: bold 14px Tahoma;
+}
+
+
+header, section, footer, aside, nav, article{
+  display: block
+}
+
+body{
+  width: 100%;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+}
+
+#big_wrapper{
+  max-width: 1000px;
+  margin: 20px 0px;
+  display: webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-flex: 1;
+}*/
