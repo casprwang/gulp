@@ -1,32 +1,16 @@
-// var gulp        = require('gulp');
-// var browserSync = require('browser-sync').create();
-// var reload      = browserSync.reload;
-//
-//
-// gulp.task('server', function() {
-//   browserSync.init({
-//     server: './app'
-//   });
-// });
-//
-// gulp.task('default', ['server'], function () {
-//   gulp.watch('./app/index.html').on('change', reload)
-//   gulp.watch('./app/css/*.css').on('change', reload)
-// });
-//
-// // sakljfjdska
-// //test
-
 const gulp = require('gulp');
-const jade = require('gulp-jade');
+// const jade = require('gulp-jade');
+const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 const browserSync = require('browser-sync').create();
+
+// const watch = require('gulp-watch');
 // const del  = require('del');
 
 
-gulp.task ('jade', function(){
-    return gulp.src('src/jade/*.jade')
-        .pipe(jade({
+gulp.task ('pug', function(){
+    return gulp.src('src/pug/*.pug')
+        .pipe(pug({
             pretty: true
         }))
         .pipe(gulp.dest('app/html'))
@@ -52,12 +36,18 @@ gulp.task('browserSync', function() {
   })
 })
 
-gulp.task ('watch', ['browserSync', 'jade', 'sass'], function() {
-    gulp.watch('src/jade/*.jade', ['jade']);
+
+// build in 'watch'
+gulp.task ('watch', ['browserSync', 'pug', 'sass'], function() {
+    gulp.watch('src/pug/*.pug', ['pug']);
     gulp.watch('src/sass/*.scss', ['sass']);
     gulp.watch('app/index.html', browserSync.reload);
-
 })
+
+
+
+
+
 
 // // del
 // gulp.task('del', function () {
