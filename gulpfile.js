@@ -42,6 +42,7 @@ gulp.task ('watch', ['browserSync', 'pug', 'sass'], function() {
     gulp.watch('src/pug/*.pug', ['pug']);
     gulp.watch('src/sass/*.scss', ['sass']);
     gulp.watch('app/index.html', browserSync.reload);
+    gulp.watch('app/main.css', browserSync.reload);
 })
 
 
