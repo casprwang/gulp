@@ -1,0 +1,26 @@
+{
+  "name": "gulp_setup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangsongiam/gulp-practice.git"
+  },
+  "author": "Song Wang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wangsongiam/gulp-practice/issues"
+  },
+  "homepage": "https://github.com/wangsongiam/gulp-practice#readme",
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-sass": "^2.3.2"
+  }
+}
