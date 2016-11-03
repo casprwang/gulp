@@ -1,4 +1,4 @@
-# **Song's Gulp Kit**
+# **Song's Gulp Starter Kit**
 ## **An easy setup for Front-end developing and learning**
 ### browser synchronisation, auto-rebuild, CSS injecting etc etc.
 
