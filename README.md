@@ -16,6 +16,7 @@
 
 ## **System Preparation**
 To use this starter project, you'll need the following things installed on your machine.
+
 1. Node
 2. Gulp
 
