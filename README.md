@@ -17,8 +17,8 @@
 ## **System Preparation**
 To use this starter project, you'll need the following things installed on your machine.
 
-1. Node
-2. Gulp
+1. [Node](https://nodejs.org/) -use the installer.
+2. [Gulp](http://gulpjs.com/) -`npm install -g gulp` (mac users may need sudo)
 
 ## **Local Installation**
 1. Clone this repo, or download it into a directory of your choice.
