@@ -1,6 +1,5 @@
-body {
+/*body {
   background: #1daf27; }
-
 
 .box {
     border-style: solid;
@@ -39,4 +38,25 @@ body {
 p::selection {
   color: white;
   background: black;
+}
+
+
+
+.shadow {
+   -moz-box-shadow:    inset 0 0 10px #000000;
+   -webkit-box-shadow: inset 0 0 10px #000000;
+   box-shadow:         inset 0 0 10px #000000;
+}
+
+.one-edge-shadow {
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+}
+
+*/
+
+#nodeco {
+  text-decoration: none;
+  color: red;
 }
